@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'MyriadPro-Regular';
+    src: url('./MyriadPro/MyriadPro-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MyriadPro-Bold';
+    src: url('./MyriadPro/MyriadPro-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+	font-family: 'FiraSans-Regular';
+	src: url('./fira-sans/FiraSans-Regular.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'FiraSans-Bold';
+	src: url('./fira-sans/FiraSans-Bold.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'NotoSans-Regular';
+    src: url('./NotoSans/NotoSans-Regular-webfont.eot');
+    src: url('./NotoSans/NotoSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./NotoSans/NotoSans-Regular-webfont.woff') format('woff'),
+         url('./NotoSans/NotoSans-Regular-webfont.ttf') format('truetype'),
+         url('./NotoSans/NotoSans-Regular-webfont.svg#noto_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+	font-family: 'NotoSans-Bold';
+    src: url('./NotoSans/NotoSans-Bold-webfont.eot');
+    src: url('./NotoSans/NotoSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./NotoSans/NotoSans-Bold-webfont.woff') format('woff'),
+         url('./NotoSans/NotoSans-Bold-webfont.ttf') format('truetype'),
+         url('./NotoSans/NotoSans-Bold-webfont.svg#noto_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

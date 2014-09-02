@@ -1,0 +1,153 @@
+plomo = #CCCCCC
+azul = #156FEA
+gris= #666666
+gris_azulino = #3E4E5F
+gris_oscuro = #444444
+verde = #A8DA00
+
+body
+    padding: 5px
+    background-color: #B5D31C
+    font-size: 16px
+    font-family: 'PT Sans Narrow', sans-serif
+    background url(fondo.jpg) no-repeat center center fixed
+
+.titulo-cuadro
+    background-color: #157CF5
+    border: 1px solid gris_azulino
+    box-shadow 0 2px 2px gris_azulino
+    color: #FFFFFF !important
+    font-size: 20px
+    font-weight: normal
+    height: 25px
+    line-height: 25px
+    margin-bottom: 3px
+    margin-top: 10px
+    padding-bottom: 5px
+    padding-top: 5px 
+    position relative
+    width 100%
+
+    &:before
+        content "\e606"
+        font-size 1.5rem
+        font-family "icomoon"
+        margin 0 5px 0 7px
+        vertical-align bottom
+
+.contenido
+    width 100%
+    background-color white
+    border 1px solid gris
+    padding-bottom 5px
+    box-shadow 0 2px 2px gris_azulino
+    
+    .encabezado
+        background-color gris
+        width 100%
+        text-align center
+        color white
+        padding 5px 0
+        .tipo_dato_nombre
+        //	background-color green
+            width 27%
+            display inline-block
+            margin 5px 0 5px 0
+            vertical-align middle
+
+        .tipo_dato
+        //	background-color red
+            width 22%
+            display inline-block
+            vertical-align middle
+
+
+    .fila_producto
+        width 100%
+        color gris
+        text-align center
+        padding 5px 0 0 0
+
+        .nombre_prod
+            width 27%
+            display inline-block
+            background-color #F0F0F0
+            vertical-align top
+
+            .dato_nombre
+                margin 8px 0px
+                font-size 20px
+                vertical-align middle
+                font-weight bold
+
+        .totaldia_prod
+            width 22%
+            display inline-block
+            background-color #F0F0F0
+            vertical-align top
+
+            .dato_totaldia
+                margin 11px 0px
+
+        .avance_prod
+            width 22%
+            display inline-block
+            background-color #F0F0F0
+            vertical-align top
+
+            .dato_avance
+                margin 11px 0px
+
+        .porc_prod
+            width 22%
+            display inline-block
+            background-color #F0F0F0
+            vertical-align top
+
+            .dato_porc
+                margin 11px 0px
+
+    .datos_total
+        width 100%
+        color white
+        text-align center
+        padding 5px 0 0 0
+
+        .nombre_prod_total
+            width 27%
+            display inline-block
+            background-color azul
+            vertical-align top
+
+            .dato_nombre_total
+                margin 8px 0px
+                font-size 20px
+                vertical-align middle
+                font-weight normal
+
+        .totaldia_prod_total
+            width 22%
+            display inline-block
+            background-color azul
+            vertical-align top
+
+            .dato_totaldia_total
+                margin 11px 0px
+
+        .avance_prod_total
+            width 22%
+            display inline-block
+            background-color azul
+            vertical-align top
+
+            .dato_avance_total
+                margin 11px 0px
+
+        .porc_prod_total
+            width 22%
+            display inline-block
+            background-color azul
+            vertical-align top
+
+            .dato_porc_total
+                margin 11px 0px        

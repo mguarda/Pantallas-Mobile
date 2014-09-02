@@ -1,0 +1,404 @@
+body {
+  padding: 5px;
+  background-color: #b5d31c;
+  font-size: 16px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  background: url("fondo.jpg") no-repeat center center fixed;
+}
+.titulo-cuadro {
+  background-color: #157cf5;
+  border: 1px solid #3e4e5f;
+  box-shadow: 0 2px 2px #3e4e5f;
+  color: #fff !important;
+  font-size: 20px;
+  font-weight: normal;
+  height: 25px;
+  line-height: 25px;
+  margin-bottom: 3px;
+  margin-top: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  position: relative;
+  width: 100%;
+}
+.titulo-cuadro:before {
+  content: "\e606";
+  font-size: 1.5rem;
+  font-family: "icomoon";
+  margin: 0 5px 0 7px;
+  vertical-align: bottom;
+}
+.contenido {
+  background-color: #fff;
+  border: 1px solid #3e4e5f;
+  box-shadow: 0 2px 2px #3e4e5f;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.contenido .titulo1 {
+  background-color: #666;
+  color: #fff;
+  font-size: 18px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-top: 5px;
+  text-align: left;
+  vertical-align: middle;
+}
+.contenido .titulo1:before {
+  content: "\e60a";
+  display: inline-block;
+  font-size: 20px;
+  color: #fff;
+  font-family: "icomoon";
+  margin: 0 5px 0 5px;
+  vertical-align: bottom;
+}
+.contenido .indicadores {
+  padding: 5px 5px 5px 5px;
+  overflow: hidden;
+  text-align: center;
+}
+.contenido .indicadores .ind {
+  background-color: #f0f0f0;
+  display: inline-block;
+  margin-bottom: 1px;
+  width: 32.2%;
+  overflow: hidden;
+  height: 88px;
+  vertical-align: top;
+}
+.contenido .indicadores .ind .nombre_tipo {
+  color: #2e82dd;
+  font-size: 15px;
+  padding-left: 10px;
+  padding: 5px;
+  text-align: left;
+  width: 100%;
+  font-weight: bold;
+}
+.contenido .indicadores .ind .cant {
+  color: #565656;
+  display: inline-block;
+  font-size: 30px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  text-align: right;
+  width: calc(60% - 10px);
+}
+.contenido .indicadores .ind .percent {
+  color: #2e82dd;
+  display: inline-block;
+  padding-bottom: 3px;
+  padding-right: 5px;
+  vertical-align: bottom;
+  width: calc(40% - 10px);
+  text-align: center;
+}
+.contenido .indicadores .ind .tabla_carga {
+  height: 5px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  width: 100%;
+  position: relative;
+}
+.contenido .indicadores .ind .tabla_carga .tabla_incompleto {
+  background-color: #ccc;
+  border: none;
+  display: inline-block;
+  float: left;
+  height: 5px;
+  margin: 0;
+  padding: 0;
+  width: calc(100% - 38.7%);
+}
+.contenido .indicadores .ind .tabla_carga .tabla_completo {
+  background-color: #156fea;
+  border: none;
+  display: inline-block;
+  float: left;
+  height: 5px;
+  margin: 0;
+  padding: 0;
+  width: calc(38.7%);
+}
+.contenido .indicadores .ind_enReparto {
+  background-color: #f0f0f0;
+  display: inline-block;
+  margin-bottom: 1px;
+  width: 32.2%;
+  overflow: hidden;
+  height: 93px;
+  vertical-align: top;
+}
+.contenido .indicadores .ind_enReparto .nombre_tipo {
+  color: #2e82dd;
+  font-size: 15px;
+  padding-left: 10px;
+  padding: 5px;
+  text-align: left;
+  width: 100%;
+  font-weight: bold;
+}
+.contenido .indicadores .ind_enReparto .cant {
+  color: #156fea;
+  display: inline-block;
+  font-size: 30px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  text-align: right;
+  width: calc(60% - 10px);
+}
+.contenido .indicadores .ind_enReparto .percent {
+  color: #2e82dd;
+  display: inline-block;
+  padding-bottom: 3px;
+  padding-right: 5px;
+  vertical-align: bottom;
+  width: calc(40% - 10px);
+  text-align: center;
+}
+.contenido .indicadores .datos_viajes {
+  background-color: #f0f0f0;
+  margin: 0;
+  margin-bottom: 5px;
+}
+.contenido .indicadores .datos_viajes .ind_reparto {
+  width: 32.2%;
+  display: inline-block;
+}
+.contenido .indicadores .datos_viajes .ind_reparto .desc_reparto {
+  color: #2e82dd;
+  font-size: 15px;
+  padding-left: 10px;
+  text-align: left;
+  display: block;
+  font-weight: bold;
+}
+.contenido .indicadores .datos_viajes .ind_reparto .cant_reparto {
+  color: #545454;
+  display: inline-block;
+  font-size: 40px;
+  text-align: left;
+  width: 50%;
+}
+.contenido .indicadores .datos_viajes .ind_reparto .porc_reparto {
+  color: #2e82dd;
+  display: inline-block;
+  vertical-align: bottom;
+  width: 40%;
+}
+.contenido .indicadores .datos_viajes .ind_reparto .tabla_carga {
+  height: 5px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  width: 100%;
+  position: relative;
+}
+.contenido .indicadores .datos_viajes .ind_reparto .tabla_carga .tabla_incompleto {
+  background-color: #ccc;
+  border: none;
+  display: inline-block;
+  float: left;
+  height: 5px;
+  margin: 0;
+  padding: 0;
+  width: calc(100% - 38.7%);
+}
+.contenido .indicadores .datos_viajes .ind_reparto .tabla_carga .tabla_completo {
+  background-color: #156fea;
+  border: none;
+  display: inline-block;
+  float: left;
+  height: 5px;
+  margin: 0;
+  padding: 0;
+  width: calc(38.7%);
+}
+.contenido .indicadores .datos_viajes .ind_atiempo {
+  width: 32.2%;
+  display: inline-block;
+  margin-top: 5px;
+}
+.contenido .indicadores .datos_viajes .ind_atiempo .cant_atiempo {
+  width: 45%;
+  display: inline-block;
+  font-size: 40px;
+  color: #e37900;
+  vertical-align: top;
+}
+.contenido .indicadores .datos_viajes .ind_atiempo .desc_atiempo {
+  width: 45%;
+  display: inline-block;
+  color: #e37900;
+  font-size: 12px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+.contenido .indicadores .datos_viajes .ind_atiempo .detalle_atiempo {
+  display: block;
+  background-color: #e37900;
+  color: #fff;
+  font-size: 14px;
+  margin: 0 5px;
+}
+.contenido .indicadores .datos_viajes .ind_atiempo .detalle_atiempo .reloj,
+.contenido .indicadores .datos_viajes .ind_atiempo .detalle_atiempo:before {
+  content: "\e603";
+  display: inline-block;
+  float: left;
+  font-size: 1em;
+  color: #fff;
+  font-family: "icomoon";
+  margin: 2px 0 0 6px;
+}
+.contenido .indicadores .datos_viajes .ind_atrasado {
+  width: 32.2%;
+  display: inline-block;
+  margin-top: 5px;
+}
+.contenido .indicadores .datos_viajes .ind_atrasado .cant_atrasado {
+  width: 45%;
+  display: inline-block;
+  font-size: 40px;
+  color: #d80100;
+  vertical-align: top;
+}
+.contenido .indicadores .datos_viajes .ind_atrasado .desc_atrasado {
+  width: 45%;
+  display: inline-block;
+  color: #d80100;
+  font-size: 12px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+.contenido .indicadores .datos_viajes .ind_atrasado .detalle_atrasado {
+  display: block;
+  background-color: #d80100;
+  color: #fff;
+  font-size: 14px;
+  margin: 0 5px;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+.contenido .indicadores .datos_viajes .ind_atrasado .detalle_atrasado .reloj,
+.contenido .indicadores .datos_viajes .ind_atrasado .detalle_atrasado:before {
+  content: "\e603";
+  display: inline-block;
+  font-size: 1em;
+  color: #fff;
+  font-family: "icomoon";
+  margin: 2px 0 0 6px;
+  float: left;
+}
+.titulo-cuadro-total {
+  background-color: #157cf5;
+  border: 1px solid #3e4e5f;
+  box-shadow: 0 2px 2px #3e4e5f;
+  color: #fff !important;
+  font-size: 20px;
+  font-weight: normal;
+  height: 25px;
+  line-height: 25px;
+  margin-bottom: 3px;
+  margin-top: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  position: relative;
+  width: 100%;
+}
+.titulo-cuadro-total:before {
+  content: "\e607";
+  font-size: 1.5rem;
+  font-family: "icomoon";
+  margin: 0 5px 0 7px;
+  vertical-align: bottom;
+}
+.contenido_total {
+  background-color: #fff;
+  border: 1px solid #3e4e5f;
+  box-shadow: 0 2px 2px #3e4e5f;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.contenido_total .indicadores_total {
+  padding: 5px;
+  overflow: hidden;
+  text-align: center;
+}
+.contenido_total .indicadores_total .ind_viajes_total {
+  width: 49%;
+  display: inline-block;
+  background-color: #156fea;
+}
+.contenido_total .indicadores_total .ind_viajes_total .desc_item {
+  color: #fff;
+  font-size: 15px;
+  padding-left: 10px;
+  text-align: left;
+  display: block;
+  margin-top: 5px;
+}
+.contenido_total .indicadores_total .ind_viajes_total .cant_item {
+  color: #fff;
+  display: inline-block;
+  font-size: 40px;
+  text-align: center;
+  width: 50%;
+  margin-bottom: 10px;
+  vertical-align: bottom;
+}
+.contenido_total .indicadores_total .ind_viajes_total .caja_icono {
+  color: #2e82dd;
+  display: inline-block;
+  vertical-align: bottom;
+  width: 40%;
+  margin-bottom: 5px;
+}
+.contenido_total .indicadores_total .ind_viajes_total .caja_icono .icono_camion {
+  text-align: right;
+}
+.contenido_total .indicadores_total .ind_viajes_total .caja_icono:before {
+  content: "\e600";
+  background-color: #fff;
+  display: inline-block;
+  font-size: 20px;
+  padding: 3px;
+  color: #666;
+  font-family: "icomoon";
+  margin: 0 5px 0 5px;
+  vertical-align: bottom;
+  border-radius: 50%;
+  float: right;
+}
+.contenido_total .indicadores_total .ind_viajes_total .tabla_carga {
+  height: 5px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  width: 100%;
+  position: relative;
+}
+.contenido_total .indicadores_total .ind_viajes_total .tabla_carga .tabla_incompleto {
+  background-color: #ccc;
+  border: none;
+  display: inline-block;
+  float: left;
+  height: 5px;
+  margin: 0;
+  padding: 0;
+  width: calc(100% - 38.7%);
+}
+.contenido_total .indicadores_total .ind_viajes_total .tabla_carga .tabla_completo_total {
+  background-color: #666;
+  border: none;
+  display: inline-block;
+  float: left;
+  height: 5px;
+  margin: 0;
+  padding: 0;
+  width: calc(38.7%);
+}

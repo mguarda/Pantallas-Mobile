@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?tz6pdq');
-	src:url('fonts/icomoon.eot?#iefixtz6pdq') format('embedded-opentype'),
-		url('fonts/icomoon.woff?tz6pdq') format('woff'),
-		url('fonts/icomoon.ttf?tz6pdq') format('truetype'),
-		url('fonts/icomoon.svg?tz6pdq#icomoon') format('svg');
+	src:url('fonts/icomoon.eot?-te7o0u');
+	src:url('fonts/icomoon.eot?#iefix-te7o0u') format('embedded-opentype'),
+		url('fonts/icomoon.woff?-te7o0u') format('woff'),
+		url('fonts/icomoon.ttf?-te7o0u') format('truetype'),
+		url('fonts/icomoon.svg?-te7o0u#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -23,7 +23,7 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.icon-icon_camion:before {
+.icon-camion_progra:before {
 	content: "\e600";
 }
 .icon-icon_actualizar:before {
@@ -43,4 +43,16 @@
 }
 .icon-icon_zonas:before {
 	content: "\e606";
+}
+.icon-icon_total:before {
+	content: "\e607";
+}
+.icon-icon_info:before {
+	content: "\e608";
+}
+.icon-icon_mapa:before {
+	content: "\e609";
+}
+.icon-icon_planta:before {
+	content: "\e60a";
 }

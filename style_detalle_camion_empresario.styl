@@ -1,0 +1,239 @@
+plomo = #CCCCCC
+azul = #156FEA
+gris= #666666
+gris_azulino = #3E4E5F
+gris_oscuro = #444444
+verde = #A8DA00
+
+body
+    padding: 5px
+    background-color: #B5D31C
+    font-size: 16px
+    font-family: 'PT Sans Narrow', sans-serif
+    background url(fondo.jpg) no-repeat center center fixed
+
+.titulo-cuadro
+    background-color: #157CF5
+    border: 1px solid gris_azulino
+    box-shadow 0 2px 2px gris_azulino
+    color: #FFFFFF !important
+    font-size: 20px
+    font-weight: normal
+    height: 25px
+    line-height: 25px
+    margin-bottom: 3px
+    margin-top: 10px
+    padding-bottom: 5px
+    padding-top: 5px 
+    position relative
+    display block
+
+    &:before
+        content "\e608"
+        font-size 1.2rem
+        padding 3px
+        font-family "icomoon"
+        margin 0 5px 0 7px
+        vertical-align bottom
+
+.contenido
+    background-color: #FFFFFF
+    border: 1px solid gris_azulino
+    box-shadow 0 2px 2px gris_azulino
+    font-size: 16px
+    display block
+    margin-bottom 5px
+    padding 5px
+
+    .info_camion
+        display block
+        border none
+        margin 0
+        text-align center
+
+        .ind_info
+            width 49%
+            display inline-block
+            background-color #F0F0F0
+            color gris
+            vertical-align top
+            text-align left
+
+            .tipo
+                margin-top 5px
+                font-size 16px    
+                margin-left 10px
+
+            .info
+                font-size 30px
+                margin-left 10px
+                margin-bottom 10px
+
+    .estado_camion
+        display block
+        border none
+        margin 0
+        padding 0 5px
+
+        .estado
+            color gris
+            width 60%
+            display inline-block
+            
+            .text_estado
+                margin-top 5px
+                font-size 16px    
+                margin-left 10px
+
+            .disp
+                font-size 30px
+                margin-left 10px
+                margin-bottom 10px
+
+        .estado_tiempo
+            width 36%
+            display inline-block
+            text-align left
+
+            .tiempo
+                display block
+                background-color #D80100
+                color white
+                font-size 14px
+                margin 0 5px
+                width 70%
+
+                .reloj
+                &:before
+                    content: "\e603"
+                    display inline-block
+                    float left
+                    font-size 0.95em
+                    color white
+                    font-family "icomoon"
+                    margin 2px 0 0 6px
+
+    .clientes
+        background-color #F0F0F0
+        display block
+        border none
+        padding 5px 0 
+        margin 5px 0
+        text_align left
+
+        .texto_cliente
+            color gris
+            width 30%
+            display inline-block
+            text-align center
+
+        .links_clientes
+            width 50%
+            display inline-block
+            text-align right
+
+            .link_cliente
+                width 10%
+                padding 5px 6px
+                display inline-block
+                border 1px solid gris
+                text-align center
+                font-weight bold
+
+            .link_cliente_selected
+                width 10%
+                padding 5px 6px
+                display inline-block
+                border 1px solid gris
+                text-align center
+                font-weight bold
+                background-color #6F8C00
+                color white
+    
+    .viajes_ejecucion
+        display block
+        margin-bottom 10px
+
+        .encabezado_viajes
+            display block
+            background-color #666666
+            padding 5px
+            color white
+            padding-left 10px
+
+        .viaje
+            display block
+            font-size 12px
+            text-align center
+            margin 5px 0
+
+            .numero_viaje
+                width 8%
+                padding 3px 0
+                display inline-block
+                color white
+                background-color #525252
+
+            .desc_viaje
+                width 30%
+                display inline-block
+            //    background-color blue
+
+            .codigo_viaje
+                width 15%
+                display inline-block
+            //    background-color green
+
+            .fecha_viaje
+                width 20%
+                display inline-block
+            //    background-color yellow
+
+            .hora_viaje
+                width 10%
+                display inline-block
+            //    background-color brown
+
+            .icono_listo
+                width 1%
+                display inline-block
+                margin 0 0 0 0
+                text-align left
+
+            &:after
+                content "\e607"
+                font-size 0.9rem
+                color #666666
+                font-family "icomoon"
+                margin 0 0 0 0
+                text-align left
+                display inline-block
+                
+
+    .productos
+        display block
+
+        .encabezado_prod
+            display block
+            background-color #666666
+            padding 5px
+            color white
+            padding-left 10px            
+        
+        .producto
+            display block
+            font-size 12px
+            text-align center
+            margin 5px 0
+        
+            .desc_cliente
+                width 30%
+                display inline-block
+
+            .desc_prod
+                width 30%
+                display inline-block
+
+            .cant_prod
+                width 30%
+                display inline-block

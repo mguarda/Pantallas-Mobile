@@ -1,0 +1,411 @@
+plomo = #CCCCCC
+azul = #156FEA
+gris= #666666
+gris_azulino = #3E4E5F
+gris_oscuro = #444444
+verde = #A8DA00
+
+body
+    padding: 5px
+    background-color: #B5D31C
+    font-size: 16px
+    font-family: 'PT Sans Narrow', sans-serif
+    background url(fondo.jpg) no-repeat center center fixed
+
+.titulo-cuadro
+    background-color: #157CF5
+    border: 1px solid gris_azulino
+    box-shadow 0 2px 2px gris_azulino
+    color: #FFFFFF !important
+    font-size: 20px
+    font-weight: normal
+    height: 25px
+    line-height: 25px
+    margin-bottom: 3px
+    margin-top: 10px
+    padding-bottom: 5px
+    padding-top: 5px 
+    position relative
+    width 100%
+
+    &:before
+        content "\e606"
+        font-size 1.5rem
+        font-family "icomoon"
+        margin 0 5px 0 7px
+        vertical-align bottom
+
+.contenido
+    background-color: #FFFFFF
+    border: 1px solid gris_azulino
+    box-shadow 0 2px 2px gris_azulino
+    font-size: 16px
+    width 100%
+    margin-bottom 20px
+
+    .titulo1
+        background-color: #666666
+        color: white
+        font-size: 18px
+        padding-bottom: 10px
+        padding-left: 5px
+        padding-top: 5px
+        text-align: left
+        vertical-align: middle
+
+        &:before
+            content "\e60a"
+            display inline-block
+            font-size 20px
+            color white
+            font-family "icomoon"
+            margin 0 5px 0 5px
+            vertical-align bottom
+
+    .indicadores
+        padding 5px 5px 5px 5px
+        overflow hidden
+        text-align center
+
+        .ind
+            background-color: #F0F0F0
+            display: inline-block
+            margin-bottom: 1px
+            width: 32.2%
+            overflow hidden
+            height 88px
+            vertical-align top
+
+
+            .nombre_tipo
+                color: #2E82DD
+                font-size: 15px
+                padding-left: 10px
+                padding: 5px
+                text-align: left
+                width: 100%
+                font-weight bold
+
+            .cant
+                color: #565656
+                display: inline-block
+                font-size: 30px
+                margin-bottom: 15px
+                padding-left: 10px
+                text-align: right
+                width: calc(60% - 10px)
+
+            .percent
+                color: #2E82DD
+                display: inline-block
+                padding-bottom: 3px
+                padding-right: 5px
+                vertical-align: bottom
+                width: calc(40% - 10px)
+                text-align center
+
+            .tabla_carga
+                height 5px
+                margin 0
+                padding 0
+                border none
+                width 100%
+                position relative
+
+                .tabla_incompleto
+                    background-color plomo
+                    border none
+                    display inline-block
+                    float left
+                    height 5px
+                    margin 0
+                    padding 0
+                    width calc(100% - 38.7%)
+
+                .tabla_completo
+                    background-color azul
+                    border none
+                    display inline-block
+                    float left
+                    height 5px
+                    margin 0
+                    padding 0
+                    width calc(38.7%)
+
+        .ind_enReparto
+            background-color: #F0F0F0
+            display: inline-block
+            margin-bottom: 1px
+            width: 32.2%
+            overflow hidden
+            height 93px
+            vertical-align top
+
+            .nombre_tipo
+                color: #2E82DD
+                font-size: 15px
+                padding-left: 10px
+                padding: 5px
+                text-align: left
+                width: 100%
+                font-weight bold
+
+            .cant
+                color: azul
+                display: inline-block
+                font-size: 30px
+                margin-bottom: 15px
+                padding-left: 10px
+                text-align: right
+                width: calc(60% - 10px)
+
+            .percent
+                color: #2E82DD
+                display: inline-block
+                padding-bottom: 3px
+                padding-right: 5px
+                vertical-align: bottom
+                width: calc(40% - 10px)
+                text-align center
+
+        .datos_viajes
+            background-color #F0F0F0
+            margin 0
+            margin-bottom 5px
+
+            .ind_reparto
+                width 32.2%
+                display inline-block
+
+                .desc_reparto
+                    color: #2E82DD
+                    font-size: 15px
+                    padding-left: 10px
+                    text-align: left
+                    display block
+                    font-weight bold
+
+                .cant_reparto
+                    color: #545454
+                    display: inline-block
+                    font-size: 40px
+                    text-align: left
+                    width: 50%
+
+                .porc_reparto
+                    color: #2E82DD
+                    display: inline-block
+                    vertical-align: bottom
+                    width: 40%
+
+                .tabla_carga
+                    height 5px
+                    margin 0
+                    padding 0
+                    border none
+                    width 100%
+                    position relative
+
+                    .tabla_incompleto
+                        background-color plomo
+                        border none
+                        display inline-block
+                        float left
+                        height 5px
+                        margin 0
+                        padding 0
+                        width calc(100% - 38.7%)
+
+                    .tabla_completo
+                        background-color azul
+                        border none
+                        display inline-block
+                        float left
+                        height 5px
+                        margin 0
+                        padding 0
+                        width calc(38.7%)        
+
+            .ind_atiempo
+                width 32.2%
+                display inline-block
+                margin-top 5px
+
+                .cant_atiempo
+                    width 45%
+                    display inline-block
+                    font-size 40px
+                    color #E37900
+                    vertical-align top
+
+                .desc_atiempo
+                    width 45%
+                    display inline-block
+                    color #E37900
+                    font-size 12px
+                    vertical-align top
+                    margin-top 10px
+
+                .detalle_atiempo
+                    display block
+                    background-color #E37900
+                    color white
+                    font-size 14px
+                    margin 0 5px
+
+                    .reloj
+                    &:before
+                        content: "\e603"
+                        display inline-block
+                        float left
+                        font-size 1em
+                        color white
+                        font-family "icomoon"
+                        margin 2px 0 0 6px
+                        
+            .ind_atrasado
+                width 32.2%
+                display inline-block
+                margin-top 5px
+
+                .cant_atrasado
+                    width 45%
+                    display inline-block
+                    font-size 40px
+                    color #D80100
+                    vertical-align top
+
+                .desc_atrasado
+                    width 45%
+                    display inline-block
+                    color #D80100
+                    font-size 12px
+                    vertical-align top
+                    margin-top 10px
+
+                .detalle_atrasado
+                    display block
+                    background-color #D80100
+                    color white
+                    font-size 14px
+                    margin 0 5px
+                    font-family: 'PT Sans Narrow', sans-serif
+
+                    .reloj
+                    &:before
+                        content: "\e603"
+                        display inline-block
+                        font-size 1em
+                        color white
+                        font-family "icomoon"
+                        margin 2px 0 0 6px
+                        float left
+
+.titulo-cuadro-total
+    background-color: #157CF5
+    border: 1px solid gris_azulino
+    box-shadow 0 2px 2px gris_azulino
+    color: #FFFFFF !important
+    font-size: 20px
+    font-weight: normal
+    height: 25px
+    line-height: 25px
+    margin-bottom: 3px
+    margin-top: 10px
+    padding-bottom: 5px
+    padding-top: 5px 
+    position relative
+    width 100%
+
+    &:before
+        content "\e607"
+        font-size 1.5rem
+        font-family "icomoon"
+        margin 0 5px 0 7px
+        vertical-align bottom
+
+.contenido_total
+    background-color: #FFFFFF
+    border: 1px solid gris_azulino
+    box-shadow 0 2px 2px gris_azulino
+    font-size: 16px
+    width 100%
+    margin-bottom 20px
+    
+    .indicadores_total
+        padding 5px
+        overflow hidden
+        text-align center    
+
+        .ind_viajes_total
+            width 49%
+            display inline-block
+            background-color azul
+
+            .desc_item
+                color: white
+                font-size: 15px
+                padding-left: 10px
+                text-align: left
+                display block
+                margin-top 5px
+
+            .cant_item
+                color: white
+                display: inline-block
+                font-size: 40px
+                text-align: center
+                width: 50%
+                margin-bottom 10px
+                vertical-align bottom
+
+            .caja_icono
+                color: #2E82DD
+                display: inline-block
+                vertical-align: bottom
+                width: 40%
+                margin-bottom 5px
+
+                .icono_camion
+                    text-align right
+
+                &:before                    
+                    content "\e600"
+                    background-color white
+                    display inline-block
+                    font-size 20px
+                    padding 3px
+                    color gris
+                    font-family "icomoon"
+                    margin 0 5px 0 5px
+                    vertical-align bottom
+                    border-radius 50%
+                    float right
+
+            .tabla_carga
+                height 5px
+                margin 0
+                padding 0
+                border none
+                width 100%
+                position relative
+
+                .tabla_incompleto
+                    background-color plomo
+                    border none
+                    display inline-block
+                    float left
+                    height 5px
+                    margin 0
+                    padding 0
+                    width calc(100% - 38.7%)
+
+                .tabla_completo_total
+                    background-color gris
+                    border none
+                    display inline-block
+                    float left
+                    height 5px
+                    margin 0
+                    padding 0
+                    width calc(38.7%)

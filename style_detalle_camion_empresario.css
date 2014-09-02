@@ -1,0 +1,228 @@
+body {
+  padding: 5px;
+  background-color: #b5d31c;
+  font-size: 16px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  background: url("fondo.jpg") no-repeat center center fixed;
+}
+.titulo-cuadro {
+  background-color: #157cf5;
+  border: 1px solid #3e4e5f;
+  box-shadow: 0 2px 2px #3e4e5f;
+  color: #fff !important;
+  font-size: 20px;
+  font-weight: normal;
+  height: 25px;
+  line-height: 25px;
+  margin-bottom: 3px;
+  margin-top: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  position: relative;
+  display: block;
+}
+.titulo-cuadro:before {
+  content: "\e608";
+  font-size: 1.2rem;
+  padding: 3px;
+  font-family: "icomoon";
+  margin: 0 5px 0 7px;
+  vertical-align: bottom;
+}
+.contenido {
+  background-color: #fff;
+  border: 1px solid #3e4e5f;
+  box-shadow: 0 2px 2px #3e4e5f;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+.contenido .info_camion {
+  display: block;
+  border: none;
+  margin: 0;
+  text-align: center;
+}
+.contenido .info_camion .ind_info {
+  width: 49%;
+  display: inline-block;
+  background-color: #f0f0f0;
+  color: #666;
+  vertical-align: top;
+  text-align: left;
+}
+.contenido .info_camion .ind_info .tipo {
+  margin-top: 5px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.contenido .info_camion .ind_info .info {
+  font-size: 30px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.contenido .estado_camion {
+  display: block;
+  border: none;
+  margin: 0;
+  padding: 0 5px;
+}
+.contenido .estado_camion .estado {
+  color: #666;
+  width: 60%;
+  display: inline-block;
+}
+.contenido .estado_camion .estado .text_estado {
+  margin-top: 5px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.contenido .estado_camion .estado .disp {
+  font-size: 30px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.contenido .estado_camion .estado_tiempo {
+  width: 36%;
+  display: inline-block;
+  text-align: left;
+}
+.contenido .estado_camion .estado_tiempo .tiempo {
+  display: block;
+  background-color: #d80100;
+  color: #fff;
+  font-size: 14px;
+  margin: 0 5px;
+  width: 70%;
+}
+.contenido .estado_camion .estado_tiempo .tiempo .reloj,
+.contenido .estado_camion .estado_tiempo .tiempo:before {
+  content: "\e603";
+  display: inline-block;
+  float: left;
+  font-size: 0.95em;
+  color: #fff;
+  font-family: "icomoon";
+  margin: 2px 0 0 6px;
+}
+.contenido .clientes {
+  background-color: #f0f0f0;
+  display: block;
+  border: none;
+  padding: 5px 0;
+  margin: 5px 0;
+  text_align: left;
+}
+.contenido .clientes .texto_cliente {
+  color: #666;
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+}
+.contenido .clientes .links_clientes {
+  width: 50%;
+  display: inline-block;
+  text-align: right;
+}
+.contenido .clientes .links_clientes .link_cliente {
+  width: 10%;
+  padding: 5px 6px;
+  display: inline-block;
+  border: 1px solid #666;
+  text-align: center;
+  font-weight: bold;
+}
+.contenido .clientes .links_clientes .link_cliente_selected {
+  width: 10%;
+  padding: 5px 6px;
+  display: inline-block;
+  border: 1px solid #666;
+  text-align: center;
+  font-weight: bold;
+  background-color: #6f8c00;
+  color: #fff;
+}
+.contenido .viajes_ejecucion {
+  display: block;
+  margin-bottom: 10px;
+}
+.contenido .viajes_ejecucion .encabezado_viajes {
+  display: block;
+  background-color: #666;
+  padding: 5px;
+  color: #fff;
+  padding-left: 10px;
+}
+.contenido .viajes_ejecucion .viaje {
+  display: block;
+  font-size: 12px;
+  text-align: center;
+  margin: 5px 0;
+}
+.contenido .viajes_ejecucion .viaje .numero_viaje {
+  width: 8%;
+  padding: 3px 0;
+  display: inline-block;
+  color: #fff;
+  background-color: #525252;
+}
+.contenido .viajes_ejecucion .viaje .desc_viaje {
+  width: 30%;
+  display: inline-block;
+}
+.contenido .viajes_ejecucion .viaje .codigo_viaje {
+  width: 15%;
+  display: inline-block;
+}
+.contenido .viajes_ejecucion .viaje .fecha_viaje {
+  width: 20%;
+  display: inline-block;
+}
+.contenido .viajes_ejecucion .viaje .hora_viaje {
+  width: 10%;
+  display: inline-block;
+}
+.contenido .viajes_ejecucion .viaje .icono_listo {
+  width: 1%;
+  display: inline-block;
+  margin: 0 0 0 0;
+  text-align: left;
+}
+.contenido .viajes_ejecucion .viaje:after {
+  content: "\e607";
+  font-size: 0.9rem;
+  color: #666;
+  font-family: "icomoon";
+  margin: 0 0 0 0;
+  text-align: left;
+  display: inline-block;
+}
+.contenido .productos {
+  display: block;
+}
+.contenido .productos .encabezado_prod {
+  display: block;
+  background-color: #666;
+  padding: 5px;
+  color: #fff;
+  padding-left: 10px;
+}
+.contenido .productos .producto {
+  display: block;
+  font-size: 12px;
+  text-align: center;
+  margin: 5px 0;
+}
+.contenido .productos .producto .desc_cliente {
+  width: 30%;
+  display: inline-block;
+}
+.contenido .productos .producto .desc_prod {
+  width: 30%;
+  display: inline-block;
+}
+.contenido .productos .producto .cant_prod {
+  width: 30%;
+  display: inline-block;
+}

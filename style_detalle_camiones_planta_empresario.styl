@@ -1,0 +1,156 @@
+plomo = #CCCCCC
+azul = #156FEA
+gris= #666666
+gris_azulino = #3E4E5F
+gris_oscuro = #444444
+verde = #A8DA00
+
+body
+    padding: 5px
+    background-color: #B5D31C
+    font-size: 16px
+    font-family: 'PT Sans Narrow', sans-serif
+    background url(fondo.jpg) no-repeat center center fixed
+
+.titulo-cuadro
+    background-color: #157CF5
+    border: 1px solid gris_azulino
+    box-shadow 0 2px 2px gris_azulino
+    color: #FFFFFF !important
+    font-size: 20px
+    font-weight: normal
+    height: 25px
+    line-height: 25px
+    margin-bottom: 3px
+    margin-top: 10px
+    padding-bottom: 5px
+    padding-top: 5px 
+    position relative
+    width 100%
+
+    &:before
+        content "\e600"
+        font-size 0.8rem
+        padding 3px
+        font-family "icomoon"
+        margin 0 5px 0 7px
+        vertical-align bottom
+        border-radius 50%
+        border 1px solid #fff
+
+.contenido
+    background-color: #FFFFFF
+    border: 1px solid gris_azulino
+    box-shadow 0 2px 2px gris_azulino
+    font-size: 16px
+    width 100%
+    margin-bottom 5px
+
+    .titulo1
+        background-color: #666666
+        color: white
+        font-size: 18px
+        padding-bottom: 10px
+        padding-left: 5px
+        padding-top: 5px
+        text-align: left
+        vertical-align: bottom
+
+        &:before
+            content "\e60a"
+            display inline-block
+            font-size 20px
+            color white
+            font-family "icomoon"
+            margin 0 5px 0 5px
+            vertical-align bottom
+
+    .indicadores
+        padding 5px 5px 5px 5px
+        overflow hidden
+        text-align center
+
+        
+        .datos_camion
+            width 100%
+            background-color #F0F0F0
+            padding-bottom 5px
+            float left
+            text-align left
+            vertical-align top
+            margin-bottom 5px
+            height 65px
+
+            .ind_camion
+                width 30%
+                margin 5px 0 0 5px
+                display inline-block
+                text-align center
+                vertical-align bottom
+
+                .desc_camion
+                    color #E97800
+                    font-size 30px
+
+                .link_detalle
+                    display block
+                    background-color #E37900
+                    color white
+                    font-size 14px
+                    margin 0 5px
+
+                    .reloj
+                    &:before
+                        content: "\e603"
+                        display inline-block
+                        float left
+                        font-size 0.95em
+                        color white
+                        font-family "icomoon"
+                        margin 2px 0 0 6px
+
+            .info_camion
+                display inline-block
+                width 40%
+                text-align center
+                float right
+                padding-top 20px
+                vertical-align bottom
+
+                .info
+                    width 20%
+                    display inline-block
+                    text-align center
+                    margin 0 25px 0 0
+
+                    .icono_info
+                        display inline-block
+
+                    &:before
+                        content: "\e608"
+                        display inline-block
+                        float left
+                        font-size 1.5em
+                        padding 5px
+                        color gris
+                        font-family "icomoon"
+                        border 1px solid gris
+
+                .mapa
+                    width 20%
+                    display inline-block
+                    text-align center
+                    margin 0 20px 0 5px
+                    
+                    .icono_mapa
+                        display inline-block
+
+                    &:before
+                        content: "\e609"
+                        display inline-block
+                        float left
+                        font-size 1.5em
+                        color gris
+                        padding 5px
+                        font-family "icomoon"
+                        border 1px solid gris
